@@ -1,0 +1,226 @@
+*{
+    /* Resetar o CSS*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway' , serif;
+}
+
+.col-6{
+    width: 50%;
+}
+
+
+header#question{
+    background-color: #ffffff;
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+header#spoiler{
+    background-color: rgb(140,82,255);
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+section#game{
+    justify-content:space-around;
+    display:flex;
+    align-items: center;
+}
+
+body{
+    background-image: linear-gradient(to right, rgb(140,82,255) 50%, white 50%);
+}
+
+div#start > h1{
+    font-family: 'Concert One', serif;
+    font-size: 70px;
+    color: rgb(126, 240, 77);
+    margin-top: 50%;
+    width: 50%;
+}
+
+.button4{
+    border: 10px;
+    border-color: rgb(209, 209, 209);
+    background-color: rgb(22, 230, 39);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 28px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Titan One', serif;
+    font-size: 30px;
+    border-radius: 20px;
+    justify-content: center;
+    display: flex;
+    width: 200px;
+}
+
+.button4 span{
+    position: relative;
+    transition: 0.5s;
+    font-family: 'Titan One',serif;
+}
+
+h1#start{
+    display: block;
+}
+
+button#yes{
+    display: block;
+}
+
+div#english > h1{
+    font-family: 'Concert One', serif;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+div#english{
+    margin: 20px;
+    position: relative;
+}
+
+.button3{
+    position: relative;
+  background-color: rgb(22, 230, 39);
+  border: none;
+  font-size: 28px;
+  color: #FFFFFF;
+  padding: 20px;
+  width: 400px;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  font-family: 'Titan One',  serif;
+}
+
+  .button3:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+  } 
+
+  .button4:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+  } 
+  
+
+
+div#english{
+    align-items: center;
+    justify-content:center;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10%;
+}
+
+div#azar{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+div#azar > p{
+    text-align: center;
+    font-family: 'Concert One',serif;
+    font-size: 30px;
+    color:#ffffff;
+    padding: 20px;
+}
+
+div#azar > img{
+    max-width: 500px;
+    margin: 10px;
+    box-shadow: 0 0 5px #cb50f177;
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+div#acertou{
+    display: none;
+}
+
+div#english > h1#acertou{
+    font-family: 'Concert One', serif;
+    font-size:50px;
+    text-align: center;
+    margin-bottom: 20px;
+    color:rgb(22, 230, 39)
+}
+
+div#english > h1#errou{
+    font-family: 'Concert One', serif;
+    font-size:50px;
+    text-align: center;
+    margin-bottom: 20px;
+    color:rgb(230, 22, 22)
+}
+
+button#erro{
+    position: relative;
+  background-color: rgb(230, 22, 22);
+  border: none;
+  font-size: 28px;
+  color: #FFFFFF;
+  padding: 20px;
+  width: 400px;
+  text-align: center;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  font-family: 'Titan One',  serif;
+}
+
+button#reset{
+    position: relative;
+  background-color: rgb(214, 119, 252);
+  border: none;
+  font-size: 15px;
+  color: #FFFFFF;
+  padding: 20px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  font-family: 'Titan One',  serif;
+  margin-left: 250%;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition: all 0.5s;
+  } 
+
+  a{
+    color: #FFFFFF;
+    font-family: 'Concert One', serif;
+    font-size: 20px;
+    text-decoration: none;
+    cursor:pointer;
+    margin-right: 15px;
+  }

@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    /* Resetar o CSS*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway' , serif;
+}
+
+section#menu{
+    background-color: rgb(140,82,255);
+    padding: 7px 10px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+section#menu > header > span{
+    font-size: 30px;
+    margin-left: 15px;
+    font-family: 'Nabla' , serif;
+    color: aqua;
+}
+
+section#main{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    justify-content: left;
+    display: flex;
+    font-family: 'Concert One' , serif;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+}
+
+p{
+    font-family: 'Oswald' , serif;
+    color:black;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+section#main > header > div#questions{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+}
+
+.submit{
+    border:#ffffff;
+    border-color: white;
+    background-color: rgb(126 , 217 , 87);
+    color: white;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Titan One', serif;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-top: 30px;
+    justify-content: center;
+    display: flex;
+    max-width: 100px;
+}
+
+.linha-vertical{
+    height: 100%;
+}
+
+section#main > header{
+    display: flex;
+}
+
+div#historic{
+    display: flex;
+    flex-direction: column;
+}
+
+.buttonfaq{
+    background-color: white;
+    border-color: transparent;
+    padding: 5px 20px 5px 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    min-width: 100px;
+    font-family: 'Oswald' , serif;
+    margin: 4px 2px;
+    white-space: nowrap;
+    font-size: 15px;
+}
+
+div#frequent_questions{
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    margin-left: 40px;
+    margin-right: 40px;
+    display: none;
+}
+

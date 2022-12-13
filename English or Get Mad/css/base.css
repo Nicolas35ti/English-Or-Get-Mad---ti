@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    /* Resetar o CSS*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway' , serif;
+}
+
+section#menu{
+    background-color: rgb(140,82,255);
+    padding: 7px 10px;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section#menu > header > span{
+    font-size: 2.3vw;
+    margin-left: 15px;
+    font-family: 'Nabla' , serif;
+    color: aqua;
+}
+
+section#promo > header > div{
+    background-color: rgb(140,82,255);
+    margin-bottom: 50px;
+    justify-content: center;
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+section#promo > header > div > h1{
+    color:#ffffff;
+    justify-content:center;
+    display: flex;
+    font-family: 'Concert One' , serif;
+    margin-top: 50px;
+    font-size: 3vw;
+}
+
+body{
+    background-color: rgb(140,82,255);
+    font-size: 3vw;
+}
+
+hr{
+    margin-bottom: 40px;
+}
+
+.button1{
+    border:#ffffff;
+    border-color: white;
+    background-color: rgb(126 , 217 , 87);
+    color: white;
+    padding: 1.15vw 2.45vw;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.2vw;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Titan One', serif;
+    font-size: 2.3vw;
+    border-radius: 20px;
+    margin-top: 30px;
+    justify-content: center;
+    display: flex;
+}
+
+main > section#main > header{
+    background-color: #ffffff;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+section#main > header > h2{
+    justify-content: center;
+    display: flex;
+    font-family: 'Concert One' , serif;
+    font-size: 2.3vw;
+    text-align: center;
+}
+
+section#main > header > p , b{
+    text-align: center;
+    font-family: 'Oswald' , serif;
+    color:rgb(68, 66, 66);
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}

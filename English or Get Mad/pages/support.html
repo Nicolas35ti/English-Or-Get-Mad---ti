@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/support.css" rel="stylesheet">
+    <link href="../css/footer.css" rel="stylesheet">
+    <title>English or Get Mad - Suporte</title>
+    <script>var x = document.getElementById("assunto").value;
+    function myFunction(){
+var x = document.getElementById("assunto").value;
+document.getElementById('segundoInput').value = x;
+};
+    </script>
+</head>
+<body>
+    <header>
+        <section id="menu">
+            <header>
+                <span>English or Get Mad</span>
+            </header>
+        </section>
+    </header>
+    <main>
+        <section id="main">
+            <header>
+                <div id="questions">
+                    <h1>Ajuda e Suporte</h1>
+                    <p>Digite nas caixas de texto abaixo alguma dúvida em questão ao site que você possua ou relate algum problema que esteja enfrentando com relação ao site ou com a empresa.</p>
+                    <textarea rows="1" col="40" id="assunto" placeholder="Assunto" style="margin-bottom: 20px;"></textarea>
+                    <br>
+                    <textarea rows="1" col="40" id="email"maxlength="500" placeholder="Email" style="margin-bottom: 20px;"></textarea>
+                    <br>
+                    <textarea rows="10" col="40" id="desc" placeholder="Descreva sua dúvida e/ou problema"></textarea>
+                    <button id="enviar" onClick="myFunction(); reset();"class="submit">Enviar</button>
+                </div>
+            </header>
+        </section>
+        <section id="options">
+            <header id="as">
+                    <h2>DIVIRTA-SE!</h2>
+                    <form action="../pages/game.html">
+                        <button class="button button2" id="gameButton">JOGAR</button>
+                    </form>
+            </header>
+            <header id="col">
+                <div>
+                    <a id="titulo">Quem somos</a>
+                    <br>
+                    <a id="sub" href="../pages/empresa.html">Empresa</a>
+                    <br>
+                    <a id="sub" href="../pages/empresa.html">Equipe</a>
+                    <br>
+                    <a id="sub" href="../pages/empresa.html">Entre em contato</a>
+                </div>
+                <div>
+                    <a id="titulo">Ajuda e suporte</a>
+                    <br>
+                    <a id="sub" href="../pages/empresa.html">Dúvidas</a>
+                </div>
+                <div>
+                    <a id="titulo">Social</a>
+                    <br>
+                    <a id="sub">Twitter</a>
+                    <br>
+                    <a id="sub">Instagram</a>
+                </div>
+            </header>
+        </section>
+    </main>
+    <footer>
+        <hr width="100%" color="white">
+        <p> &copy; Desenvolvido por Smart Hydra - 2022</p>
+    </footer>
+</body>
+<script src="../javascript/game.js"></script>
+</html>

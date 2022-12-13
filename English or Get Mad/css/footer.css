@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+*{
+    /* Resetar o CSS*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Raleway' , serif;
+}
+
+section#options > header#as{
+    background-color: rgb(140,82,255);
+    justify-content:center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0%;
+}
+
+header#col{
+  justify-content:space-between;
+  display: flex;
+  align-items: center;
+  background-color: rgb(140,82,255);
+  padding: 0px 20px;
+}
+
+a#titulo{
+  color:#ffffff;
+  font-family: 'Concert One' , serif;
+  font-size: 17px;
+  margin: 0;
+}
+
+a#sub{
+  color:rgb(175, 175, 175);
+  font-family: 'Concert One' , serif;
+  font-size: 17px;
+  margin: 0;
+}
+
+section#options > header#as > h2{
+  color: #ffffff;
+  font-family: 'Concert One' , serif;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+footer{
+  background-color: rgb(140,82,255);
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin:0;
+}
+
+footer > p{
+  font-family: 'Concert One' , serif;
+  color:#ffffff;
+  font-size: 16px;
+  margin: 0;
+}
+
+button:hover{
+  transform: scale(1.1);
+  transition: all 0.5s;
+}
+
+.button2{
+    border:#ffffff;
+    border-color: white;
+    background-color: rgb(126 , 217 , 87);
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 7px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: 'Titan One', serif;
+    font-size: 14px;
+    border-radius: 20px;
+    margin-top: 15px;
+    justify-content: space-between;
+    display: flex;
+}
+
+hr{
+    margin-bottom: 40px;
+}
+
+header#col > div:nth-child(2){
+    margin-left: -50px;
+}
